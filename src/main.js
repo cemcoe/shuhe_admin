@@ -7,7 +7,7 @@ const app = createApp(App)
 // import emui from '../modules/em-ui'
 // app.use(emui)
 
-import { EmButton } from '../modules/em-ui'
-app.use(EmButton)
+import { EmButton, EmCell, EmCellGroup } from '../modules/em-ui'
+app.use(EmButton).use(EmCell).use(EmCellGroup)
 
 app.use(store).use(router).mount('#app')

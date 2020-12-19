@@ -1,8 +1,17 @@
 import Button from './Button'
+import Cell from './Cell/Cell'
+import CellGroup from './Cell/CellGroup'
 
 /** 按需加载 */
 export const EmButton = {}
 EmButton.install = Vue => Vue.component(Button.name, Button)
+
+
+export const EmCell = {}
+EmCell.install = Vue => Vue.component(Cell.name, Cell)
+
+export const EmCellGroup = {}
+EmCellGroup.install = Vue => Vue.component(CellGroup.name, CellGroup)
 /** 按需加载 */
 
 

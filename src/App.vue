@@ -6,6 +6,11 @@
     <div class="button" v-for="(type, index) in types" :key="index">
       <em-button :type="type">button</em-button>
     </div>
+
+    <em-cell-group>
+      <em-cell title="Cell title" value="Content" />
+      <em-cell title="Cell title" value="Content" label="Description" />
+    </em-cell-group>
   </div>
   <router-view />
 </template>
